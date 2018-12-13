@@ -33,6 +33,10 @@ int add_queue_circular_buffer(circular_buffer_t *cb, char *str);
 
 int read_circular_buffer(circular_buffer_t *cb);
 
+/* Flush */
+
+void flush_circular_buffer(circular_buffer_t *cb);
+
 /* Destroy */
 
 void destroy_circular_buffer(circular_buffer_t *cb);
