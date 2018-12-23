@@ -36,6 +36,7 @@ int read_circular_buffer(circular_buffer_t *cb);
 /* Flush */
 
 void flush_circular_buffer(circular_buffer_t *cb);
+void check_flush(int counter, int value, circular_buffer_t *cb);
 
 /* Destroy */
 
